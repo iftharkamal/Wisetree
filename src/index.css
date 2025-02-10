@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import "tailwindcss";
+
+/* :root {
+  --primary-color: #1E3A8A;
+  --secondary-color: #22C55E;
+  --background-color: #0F172A;
+} */
+
+:root {
+  --firstBlue: #1881b8; /* 1st light blue */
+  --secondBlue: #1675a7; /* 2nd light blue */
+  --darkBlue: #002132; /* dark blue blue */
+  --firstGreen: #92cc7e; /* 1st light green */
+  --secondGreen: #66a89f; /* 2st light green */
+  --subHeading: #144486; /* SubHeading Color */
+  --smallTextDark: #2b2a29e5; /* white bg xs text color*/
+  --smallTextLight: #fcfff9f2; /* dark bg xs text color */
+  --font-secondary: "Libre Franklin", sans-serif;
+  --font-primary: "Poppins", sans-serif;
+  --text-color: #f7ffef; /* main text color */
+}
+body {
+  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.scroll-left,
+.scroll-right {
+  display: flex;
+  white-space: nowrap;
+  min-width: 300%;
+}
+
+.scroll-left {
+  animation: scroll-left 20s linear infinite;
+  overflow: hidden;
+}
+.scroll-right {
+  animation: scroll-right 20s linear infinite;
+  overflow: hidden;
+}
+
+
