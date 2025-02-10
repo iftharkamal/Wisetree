@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="bg-white">
       {/* ---------------first container--------------- */}
-      <div className='bg-[url("src/assets/mainbg2.png")] bg-cover bg-center rounded-bl-[45px] rounded-br-[45px]'>
+      <div className='bg-[url("/assets/mainbg2.png")] bg-cover bg-center rounded-bl-[45px] rounded-br-[45px]'>
         <div className="h-[50px] bg-white rounded-br-[45px] rounded-bl-[45px]"></div>
         <div className="grid grid-cols-1 lg:grid-cols-4 p- lg:p-6 mt-10 gap-7 lg:gap-10 lg:ml-5 lg:mt-10">
           <p className="text-[#FCFFF9D9] text-base leading-[26px]">
@@ -56,7 +56,7 @@ const About = () => {
         <div className="relative">
           <div className="flex gap-7 items-center justify-center">
             {/* Box 1 */}
-            <div className="relative bg-[url('src/assets/box1.png')] bg-cover bg-center flex items-center z-40  rounded-[25px] lg:rounded-[75px] text-[#FCFFF9E5] w-[256px] h-[143px] lg:w-[700px] lg:h-[431px] -mt-5 lg:-mt-10">
+            <div className="relative bg-[url('/assets/box1.png')] bg-cover bg-center flex items-center z-40  rounded-[25px] lg:rounded-[75px] text-[#FCFFF9E5] w-[256px] h-[143px] lg:w-[700px] lg:h-[431px] -mt-5 lg:-mt-10">
               <p className=" absolute left-1/2 top-1/2 -translate-x-72 -translate-y-1/2 text-[80px] lg:text-[250px] text-center font-medium text-[#FCFFF914]">
                 G
               </p>
@@ -76,7 +76,7 @@ const About = () => {
             </div>
 
             {/* Box 2 */}
-            <div className="relative p-4 bg-[url('src/assets/box2.png')] bg-cover bg-center flex items-center  rounded-[20px] lg:rounded-[40px] text-[#FCFFF9E5] w-[146px] h-[81px] lg:w-[370px] lg:h-[228px] mt-2.5">
+            <div className="relative p-4 bg-[url('/assets/box2.png')] bg-cover bg-center flex items-center  rounded-[20px] lg:rounded-[40px] text-[#FCFFF9E5] w-[146px] h-[81px] lg:w-[370px] lg:h-[228px] mt-2.5">
               <p className=" absolute left-1/2 top-1/2 -translate-x-40 -translate-y-1/2 text-[80px] lg:text-[136px] font-medium text-[#FCFFF914]">
                 E
               </p>
@@ -96,7 +96,7 @@ const About = () => {
 
           <div className="flex gap-7 items-center justify-center lg:-mt-16 lg:ml-36">
             {/* Box 4 */}
-            <div className="relative  bg-[url('src/assets/box1.png')] bg-cover bg-center flex items-center justify-center p-1 lg:p-4 rounded-[10px] lg:rounded-[17.5px] text-[#FCFFF9E5] w-[80px] h-[38px] lg:w-[162px] lg:h-[100px] lg:mt-24">
+            <div className="relative  bg-[url('/assets/box1.png')] bg-cover bg-center flex items-center justify-center p-1 lg:p-4 rounded-[10px] lg:rounded-[17.5px] text-[#FCFFF9E5] w-[80px] h-[38px] lg:w-[162px] lg:h-[100px] lg:mt-24">
               <p className="absolute left-1/2 top-1/2 -translate-x-14 -translate-y-1/2  text-[60px] font-medium text-[#FCFFF914]">
                 b
               </p>
@@ -116,7 +116,7 @@ const About = () => {
               </div>
             </div>
             {/* Box 3 */}
-            <div className="relative bg-[url('src/assets/box3.png')] bg-cover bg-center flex items-center justify-center px-10 rounded-[15px] lg:rounded-[21px] text-[#FCFFF9E5] w-[100px] h-[58px] lg:w-[200px] lg:h-[120px] lg:p-8">
+            <div className="relative bg-[url('/assets/box3.png')] bg-cover bg-center flex items-center justify-center px-10 rounded-[15px] lg:rounded-[21px] text-[#FCFFF9E5] w-[100px] h-[58px] lg:w-[200px] lg:h-[120px] lg:p-8">
               <p className="absolute left-1/2 top-1/2 -translate-x-20 -translate-y-1/2  text-[60px] lg:text-[71px] font-medium text-[#FCFFF914]">
                 g
               </p>

@@ -31,10 +31,10 @@ const Cards2 = () => {
 
         <div className="relative  md:w-[325px] flex-shrink-0">
           <div className="">
-            <img src="src/assets/cardbg2.png" alt="card" />
+            <img src="/assets/cardbg2.png" alt="card" />
             <div className="absolute top-10 left-7 uppercase text-[#fcfff9] px-1">
               <div className="mb-14">
-                <img src="/src/assets/Vector2.png" alt="logo" />
+                <img src="/assets/Vector2.png" alt="logo" />
               </div>
               <p className="text-[22px] whitespace-nowrap">
                 Balance CAC <br />
@@ -45,7 +45,7 @@ const Cards2 = () => {
           </div>
 
           <div className="absolute right-0 top-0">
-            <img src="src/assets/cardcircle.png" alt="circle" />
+            <img src="/assets/cardcircle.png" alt="circle" />
             <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               02.
             </p>
@@ -54,7 +54,7 @@ const Cards2 = () => {
 
         <div className="relative w-full md:w-[325px] flex-shrink-0">
           <div className="">
-            <img src="src/assets/cardbg.png" alt="card" />
+            <img src="/assets/cardbg.png" alt="card" />
             <div className="absolute top-10 left-5 uppercase text-[#fcfff9] px-3">
               <p className="text-[22px] whitespace-nowrap">
                 Complex product
@@ -62,13 +62,13 @@ const Cards2 = () => {
               </p>
               <p className="text-[32px]">launches</p>
               <div className="mt-14">
-                <img src="/src/assets/Vector3.png" alt="logo" />
+                <img src="/assets/Vector3.png" alt="logo" />
               </div>
             </div>
           </div>
 
           <div className="absolute right-0 bottom-0">
-            <img src="src/assets/cardcircle.png" alt="circle" />
+            <img src="/assets/cardcircle.png" alt="circle" />
             <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               03.
             </p>
@@ -77,10 +77,10 @@ const Cards2 = () => {
 
         <div className="relative w-full md:w-[325px] flex-shrink-0">
           <div className="">
-            <img src="src/assets/cardbg2.png" alt="card" />
+            <img src="/assets/cardbg2.png" alt="card" />
             <div className="absolute top-10 left-7 uppercase text-[#fcfff9] px-1">
               <div className="mb-14">
-                <img src="/src/assets/Vector4.png" alt="logo" />
+                <img src="/assets/Vector4.png" alt="logo" />
               </div>
               <p className="text-[22px] whitespace-nowrap">
                 Scale Marketing
@@ -91,7 +91,7 @@ const Cards2 = () => {
           </div>
 
           <div className="absolute right-0 top-0">
-            <img src="src/assets/cardcircle.png" alt="circle" />
+            <img src="/assets/cardcircle.png" alt="circle" />
             <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               04.
             </p>
@@ -100,7 +100,7 @@ const Cards2 = () => {
 
         <div className="relative w-full md:w-[325px] flex-shrink-0">
           <div className="">
-            <img src="src/assets/cardbg.png" alt="card" />
+            <img src="/assets/cardbg.png" alt="card" />
             <div className="absolute top-10 left-5 uppercase text-[#fcfff9]">
               <p className="text-[22px] whitespace-nowrap">
                 alignment Between
@@ -115,7 +115,7 @@ const Cards2 = () => {
           </div>
 
           <div className="absolute right-0 bottom-0">
-            <img src="src/assets/cardcircle.png" alt="circle" />
+            <img src="/assets/cardcircle.png" alt="circle" />
             <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               05.
             </p>
@@ -124,7 +124,7 @@ const Cards2 = () => {
 
         <div className="relative md:w-[325px] flex-shrink-0">
           <div className="">
-            <img src="src/assets/cardbg2.png" alt="card" />
+            <img src="/assets/cardbg2.png" alt="card" />
             <div className="absolute top-10 left-7 uppercase text-[#fcfff9] px-1">
               <div className="mb-14">
                 <img src="/src/assets/Vector6.png" alt="logo" />
@@ -138,7 +138,7 @@ const Cards2 = () => {
           </div>
 
           <div className="absolute right-0 top-0">
-            <img src="/src/assets/cardcircle.png" alt="circle" />
+            <img src="/assets/cardcircle.png" alt="circle" />
             <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               06.
             </p>
@@ -147,7 +147,7 @@ const Cards2 = () => {
 
         <div className="relative w-full md:w-[325px] flex-shrink-0">
           <div className="">
-            <img src="src/assets/cardbg.png" alt="card" />
+            <img src="/assets/cardbg.png" alt="card" />
             <div className="absolute top-10 left-5 uppercase text-[#fcfff9]">
               <p className="text-[22px] whitespace-nowrap">consistent Global</p>
               <p className="text-[32px]">Brand Identity</p>
@@ -158,7 +158,7 @@ const Cards2 = () => {
           </div>
 
           <div className="absolute right-0 bottom-0">
-            <img src="src/assets/cardcircle.png" alt="circle" />
+            <img src="/assets/cardcircle.png" alt="circle" />
             <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               07.
             </p>

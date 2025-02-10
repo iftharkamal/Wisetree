@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Footer = () => {
   return (
-    <div className='bg-[url("src/assets/mainbg2.png")] bg-cover bg-left text-[#FCFFF9]'>
+    <div className='bg-[url("/assets/mainbg2.png")] bg-cover bg-left text-[#FCFFF9]'>
       <div className="h-[30px] w-full bg-white rounded-b-[45px]"></div>
 
       <div className="mt-12 ">
@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="relative mt-8 mb-8">
         <div className="flex items-center justify-center">
           <img
-            src="src/assets/logo.png"
+            src="/assets/logo.png"
             alt="logo"
             className="opacity-25 w-[197px] lg:w-[364px]"
           />
@@ -50,11 +50,11 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-4 p-4">
         {/* icons */}
         <div className="flex gap-3 lg:hidden">
-          <img src="src/assets/facebook.png" alt="" />
-          <img src="src/assets/instagram.png" alt="" />
-          <img src="src/assets/x.png" alt="" />
-          <img src="src/assets/youtube.png" alt="" />
-          <img src="src/assets/linkedin.png" alt="" />
+          <img src="/assets/facebook.png" alt="" />
+          <img src="/assets/instagram.png" alt="" />
+          <img src="/assets/x.png" alt="" />
+          <img src="/assets/youtube.png" alt="" />
+          <img src="/assets/linkedin.png" alt="" />
         </div>
 
         <div className="h-[0.5px] bg-[#FCFFF980] w-[98%]"></div>
@@ -64,11 +64,11 @@ const Footer = () => {
 
         <div className="flex items-center justify-between w-full p-4">
           <div className="hidden lg:flex gap-3 cursor-pointer">
-            <img src="src/assets/facebook.png" alt="" />
-            <img src="src/assets/instagram.png" alt="" />
-            <img src="src/assets/x.png" alt="" />
-            <img src="src/assets/youtube.png" alt="" />
-            <img src="src/assets/linkedin.png" alt="" />
+            <img src="/assets/facebook.png" alt="" />
+            <img src="/assets/instagram.png" alt="" />
+            <img src="/assets/x.png" alt="" />
+            <img src="/assets/youtube.png" alt="" />
+            <img src="/assets/linkedin.png" alt="" />
           </div>
           <div className="hidden lg:flex gap-8 text-[18px] cursor-pointer">
             <a>About</a>
