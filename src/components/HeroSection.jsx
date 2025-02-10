@@ -14,7 +14,7 @@ const HeroSection = () => {
       </nav>
 
       {/* container section */}
-      <div className='bg-[url("src/assets/mainbackground.png")] bg-cover bg-center h-auto relative rounded-[40px] lg:rounded-[75px] text-[var(--text-color)] font-[var(--font-secondary)] lg:h-[80vh]'>
+      <div className='bg-[url("./assets/mainbackground.png")] bg-cover bg-center h-auto relative rounded-[40px] lg:rounded-[75px] text-[var(--text-color)] font-[var(--font-secondary)] lg:h-[80vh]'>
         {/* ------inverter border radius with logo in desktop view--------- */}
         <div className="hidden md:block">
           {/* inverted border-radius  */}
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <div className="w-[230px] h-[100px] bg-white rounded-br-[89px] relative">
             <div>
               <img
-                src="src/assets/logoWithName.png"
+                src="./src/assets/logoWithName.png"
                 alt="logo"
                 className="w-[179px] h-[61px] absolute top-4 left-4"
               />
