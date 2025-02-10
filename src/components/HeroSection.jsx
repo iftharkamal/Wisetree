@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* navbar only shown in mobile display*/}
       <nav className="md:hidden flex items-center justify-between mb-5">
         <img
-          src="/assets/logoWithName.png"
+          src="/logoWithName.png"
           alt="logo"
           className="w-[122px] h-[42px]"
         />
@@ -14,7 +14,7 @@ const HeroSection = () => {
       </nav>
 
       {/* container section */}
-      <div className='bg-[url("/assets/mainbackground.png")] bg-cover bg-center h-auto relative rounded-[40px] lg:rounded-[75px] text-[var(--text-color)] font-[var(--font-secondary)] lg:h-[80vh]'>
+      <div className='bg-[url("/mainbackground.png")] bg-cover bg-center h-auto relative rounded-[40px] lg:rounded-[75px] text-[var(--text-color)] font-[var(--font-secondary)] lg:h-[80vh]'>
         {/* ------inverter border radius with logo in desktop view--------- */}
         <div className="hidden md:block">
           {/* inverted border-radius  */}
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <div className="w-[230px] h-[100px] bg-white rounded-br-[89px] relative">
             <div>
               <img
-                src="/assets/logoWithName.png"
+                src="/logoWithName.png"
                 alt="logo"
                 className="w-[179px] h-[61px] absolute top-4 left-4"
               />
@@ -41,12 +41,12 @@ const HeroSection = () => {
 
         {/* decorate elements */}
         <img
-          src="/assets/ellipseBlue.png"
+          src="/ellipseBlue.png"
           alt="blue"
           className="w-[220px] h-[117px] md:w-[330px] md:h-[190px] lg:w-[420px] lg:h-[270px] absolute top-[97px] left-[-13px] md:left-18 md:top-44 lg:left-64 lg:top-52 "
         />
         <img
-          src="/assets/ellipseGreen.png"
+          src="/ellipseGreen.png"
           alt="green"
           className="w-[220px] h-[117px] md:w-[340px] md:h-[200px] lg:w-[460px] lg:h-[270px] absolute top-[35px] right-[10px] md:right-28 md:top-15 lg:right-46 lg:top-16 "
         />
@@ -87,14 +87,14 @@ const HeroSection = () => {
         <button className="hidden lg:block absolute bottom-3 left-1/2 transform -translate-x-1/2 px-6 py-3 rounded-[50px] bg-[#FCFFF9] cursor-pointer  group transition-all duration-500 ">
           <div className="flex items-center justify-center">
             <img
-              src="/assets/logo.png"
+              src="/logo.png"
               alt="logo"
               className="w-[43px] h-[40px] group-hover:hidden"
             />
             <div className="hidden group-hover:flex group-hover:gap-2 group-hover:transition-all group-hover:duration-300">
               <div className="w-[51px] h-[51px] rounded-full bg-[#84C08A] flex items-center justify-center">
                 <img
-                  src="/assets/cross.png"
+                  src="/cross.png"
                   alt="exit"
                   className="w-[20px] h-[20px]"
                 />
