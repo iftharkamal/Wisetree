@@ -7,7 +7,7 @@ const Footer = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className='bg-[url("/footerbg.png")] bg-cover bg-bottom  text-[#FCFFF9]'
+      className='bg-[url("/footerbg.png")] bg-cover bg-bottom lg:bg-left  text-[#FCFFF9]'
     >
       <div className="h-[30px] w-full bg-white rounded-b-[45px]"></div>
 
@@ -20,7 +20,7 @@ const Footer = () => {
       >
         <div className=' bg-[url("/DotGridFooter.png")] bg-contain  bg-center'>
           <div className="p-4 lg:flex lg:gap-10 items-center justify-between ">
-            <h1 className="text-[30px] leading-[32px] mb-5 w-[312px] md:w-[448px] lg:w-[500px]">
+            <h1 className="text-[30px] lg:text-[45px] leading-[32px] lg:leading-[55px] mb-5 w-[312px] md:w-[508px] lg:w-[812px]">
               Achieve your business goals today. Book a discovery call now!
             </h1>
             <motion.button
