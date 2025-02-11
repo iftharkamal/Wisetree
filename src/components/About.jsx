@@ -9,7 +9,7 @@ const About = () => {
       <div className='bg-[url("/mainbg2.png")] bg-cover bg-center rounded-bl-[45px] rounded-br-[45px]'>
         <div className="h-[50px] bg-white rounded-br-[45px] rounded-bl-[45px]"></div>
         <div className="grid grid-cols-1 lg:grid-cols-4 p-4 lg:p-6 mt-10 gap-7 lg:gap-10 lg:ml-5 lg:mt-10">
-          <p className="text-[#FCFFF9D9] text-base leading-[26px]">
+          <p className="text-[#FCFFF9D9] font-secondary text-base leading-[26px]">
             We are the B2B branding experts who create long-term value for
             brands, which ultimately translates into deeper connections with
             Prospects and Clients. Our sustainable, integrated marketing,
@@ -23,7 +23,7 @@ const About = () => {
             <p className="opacity-85">We</p>
             <p className="opacity-65">Are</p>
           </div>
-          <p className="text-[#FCFFF9D9] text-base leading-[26px]">
+          <p className="text-[#FCFFF9D9] font-secondary text-base leading-[26px]">
             As a B2B Brand and Marketing Consulting Firm we are at the forefront
             of redefining success metrics that we achieve through consistent,
             and customised engineered efforts.
@@ -67,7 +67,7 @@ const About = () => {
                   <p className="text-[26px] lg:text-[86px] font-medium ">
                     GAIN
                   </p>
-                  <p className="text-[#FCFFF9D9] text-[13px] lg:text-[43px] whitespace-nowrap">
+                  <p className="text-[#FCFFF9D9] font-secondary text-[13px] lg:text-[43px] whitespace-nowrap">
                     Gain Buyer's Trust
                   </p>
                 </div>
@@ -85,7 +85,7 @@ const About = () => {
                   <p className="text-[15px] lg:text-[45px] font-medium ">
                     ENHANCE
                   </p>
-                  <p className="text-[#FCFFF9D9] text-[7px] lg:text-[23px] flex-wrap">
+                  <p className="text-[#FCFFF9D9] font-secondary text-[7px] lg:text-[23px] flex-wrap">
                     Gain Enhance sales quota attainment
                   </p>
                 </div>
@@ -107,7 +107,7 @@ const About = () => {
                   <p className="text-[6.5px] lg:text-[20px] font-medium uppercase">
                     build
                   </p>
-                  <p className="text-[#FCFFF9D9] text-[3.5px] lg:text-[10px] whitespace-nowrap">
+                  <p className="text-[#FCFFF9D9] font-secondary text-[3.5px] lg:text-[10px] whitespace-nowrap">
                     build a distintive <br />
                     brand
                   </p>
@@ -125,7 +125,7 @@ const About = () => {
                   <p className="text-[9.5px] lg:text-[24px] font-medium uppercase">
                     Generate
                   </p>
-                  <p className="text-[#FCFFF9D9] text-[7px] lg:text-[12px] flex-wrap">
+                  <p className="text-[#FCFFF9D9] font-secondary text-[7px] lg:text-[12px] flex-wrap">
                     generate demand
                   </p>
                 </div>

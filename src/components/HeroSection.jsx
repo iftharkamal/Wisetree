@@ -53,10 +53,10 @@ const HeroSection = () => {
 
         {/* text/Headlines */}
         <div className="relative z-10">
-          <h5 className="lg:hidden max-w-[220px] p-6 text-base leading-[26px] opacity-85">
+          <h5 className="lg:hidden max-w-[220px] font-[var(--font-secondary)] p-6 text-base leading-[26px] opacity-85">
             Looking to streamline your marketing?
           </h5>
-          <div className="leading-[120px] lg:leading-[170px] lg:absolute w-full lg:top-25 ">
+          <div className="leading-[120px]  lg:leading-[150px] xl:leading-[180px] lg:absolute w-full lg:top-20 xl:top-12 ">
             <div className="overflow-hidden w-full">
               <h1 className="text-[90px] lg:[120px] font-bold  uppercase scroll-left">
                 Don’t just Keep Up, OUTRUN
@@ -68,7 +68,7 @@ const HeroSection = () => {
               </h1>
             </div>
           </div>
-          <h5 className="max-w-[280px] lg:max-w-[330px] p-6 text-base lg:text-[18px] leading-[24px] lg:leading-[27px] opacity-85 lg:absolute lg:right-10 lg:top-96 xl:top-92 xl:right-16 ">
+          <h5 className="max-w-[280px] lg:max-w-[330px] font-secondary p-6 text-base lg:text-[18px] leading-[24px] lg:leading-[27px] opacity-85 lg:absolute lg:right-10 lg:top-96 xl:top-96 xl:right-24 ">
             Wisetree Brands is your trusted partner to help you stand out, craft
             sustainable B2B strategies, and create a lasting impression.
           </h5>
@@ -100,7 +100,7 @@ const HeroSection = () => {
                 />
               </div>
               <div className="w-[134px] h-[51px] rounded-[50px] bg-[#187EB4] flex items-center justify-center">
-                <p className="text-[#FCFFF9E5]  text-[20px] opacity-0 w-0 overflow-hidden transition-all ease-in-out duration-700 group-hover:opacity-100 group-hover:pr-26 group-hover:whitespace-nowrap">
+                <p className="text-[#FCFFF9E5] font-[var(--font-secondary)] text-[20px] opacity-0 w-0 overflow-hidden transition-all ease-in-out duration-700 group-hover:opacity-100 group-hover:pr-26 group-hover:whitespace-nowrap">
                   Contact Us
                 </p>
               </div>

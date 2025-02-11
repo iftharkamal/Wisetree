@@ -22,7 +22,7 @@ const Cards2 = () => {
             </div>
             <div className="absolute right-0 bottom-0  md:right-0 md:bottom-0">
               <img src="/cardcircle.png" alt="circle" />
-              <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <p className="absolute font-secondary text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 01.
               </p>
             </div>
@@ -46,7 +46,7 @@ const Cards2 = () => {
 
           <div className="absolute right-0 top-0">
             <img src="/cardcircle.png" alt="circle" />
-            <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="absolute font-secondary text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               02.
             </p>
           </div>
@@ -69,7 +69,7 @@ const Cards2 = () => {
 
           <div className="absolute right-0 bottom-0">
             <img src="/cardcircle.png" alt="circle" />
-            <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="absolute font-secondary text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               03.
             </p>
           </div>
@@ -92,7 +92,7 @@ const Cards2 = () => {
 
           <div className="absolute right-0 top-0">
             <img src="/cardcircle.png" alt="circle" />
-            <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="absolute font-secondary text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               04.
             </p>
           </div>
@@ -116,7 +116,7 @@ const Cards2 = () => {
 
           <div className="absolute right-0 bottom-0">
             <img src="/cardcircle.png" alt="circle" />
-            <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="absolute font-secondary text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               05.
             </p>
           </div>
@@ -139,7 +139,7 @@ const Cards2 = () => {
 
           <div className="absolute right-0 top-0">
             <img src="/cardcircle.png" alt="circle" />
-            <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="absolute font-secondary text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               06.
             </p>
           </div>
@@ -159,7 +159,7 @@ const Cards2 = () => {
 
           <div className="absolute right-0 bottom-0">
             <img src="/cardcircle.png" alt="circle" />
-            <p className="absolute text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <p className="absolute font-secondary text-white text-[25px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               07.
             </p>
           </div>

@@ -1,13 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Libre+Franklin:wght@400&display=swap');
 
 @import "tailwindcss";
 
-/* :root {
-  --primary-color: #1E3A8A;
-  --secondary-color: #22C55E;
-  --background-color: #0F172A;
-} */
+
 
 :root {
   --firstBlue: #1881b8; /* 1st light blue */
@@ -18,16 +14,18 @@
   --subHeading: #144486; /* SubHeading Color */
   --smallTextDark: #2b2a29e5; /* white bg xs text color*/
   --smallTextLight: #fcfff9f2; /* dark bg xs text color */
-  --font-secondary: "Libre Franklin", sans-serif;
-  --font-primary: "Poppins", sans-serif;
+  --font-secondary: 'Libre Franklin', sans-serif;
+  --font-primary: 'Poppins', sans-serif;
   --text-color: #f7ffef; /* main text color */
 }
 body {
   font-family: var(--font-primary);
-  font-family: var(--font-secondary);
 }
 ::-webkit-scrollbar {
   display: none;
+}
+.font-secondary{
+  font-family: var(--font-secondary);
 }
 
 @keyframes scroll-left {
@@ -50,16 +48,14 @@ body {
 
 .scroll-left,
 .scroll-right {
-  display: flex;
+  display: inline-block;
   white-space: nowrap;
-  min-width: 300%;
+  min-width: 100%;
 }
 
 .scroll-left {
-  animation: scroll-left 20s linear infinite;
-  overflow: hidden;
+  animation: scroll-left 15s linear infinite;
 }
 .scroll-right {
-  animation: scroll-right 20s linear infinite;
-  overflow: hidden;
+  animation: scroll-right 15s linear infinite;
 }

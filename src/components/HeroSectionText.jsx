@@ -4,7 +4,7 @@ import Title from "./Title";
 const HeroSectionText = () => {
   return (
     <div className="mt-16 lg:p-6">
-      <p className="text-base uppercase text-[#2B2A29] mb-5">
+      <p className="text-base font-secondary uppercase text-[#2B2A29] mb-5">
         what makes us unique
       </p>
       <hr className="text-[#00213280] mb-5" />
@@ -19,7 +19,7 @@ const HeroSectionText = () => {
         />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3  mt-6 gap-6">
-        <p className="text-[16px] leading-[26px] font-normal text-[#2B2A29E5] lg:order-2">
+        <p className="text-[16px] font-secondary leading-[26px]  text-[#2B2A29E5] lg:order-2">
           Wisetree Brands stands out for its commitment to deliver sustainable
           and high-performance growth for B2B organisations, through a unique,
           proprietary organic growth engineering methodology. A brand-first
@@ -30,7 +30,7 @@ const HeroSectionText = () => {
           focuses on sustainable, long-term growth, specifically adapted for the
           post-digital landscape.
         </p>
-        <p className="text-[16px] leading-[26px] font-normal text-[#2B2A29E5] lg:order-3">
+        <p className="text-[16px] font-secondary leading-[26px] font-normal text-[#2B2A29E5] lg:order-3">
           Our strategies are designed to be an efficient investment, relative to
           revenue, delivering substantial returns such as increased ROI and
           enhanced customer loyalty. We focus on optimising Per Customer Spend
