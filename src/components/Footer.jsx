@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Footer = () => {
   return (
-    <div className='bg-[url("/mainbg2.png")] bg-cover bg-left text-[#FCFFF9]'>
+    <div className='bg-[url("/footerbg.png")] bg-cover bg-bottom  text-[#FCFFF9]'>
       <div className="h-[30px] w-full bg-white rounded-b-[45px]"></div>
 
       <div className="mt-12 ">
@@ -12,16 +12,6 @@ const Footer = () => {
             <h1 className="text-[30px] leading-[32px] mb-5 w-[312px] md:w-[448px] lg:w-[500px]">
               Achieve your business goals today. Book a discovery call now!
             </h1>
-            {/* button */}
-            {/* <button className="flex items-center  text-[19px] font-medium uppercase rounded-4xl text-[#002132]">
-              <div className="w-[140px] h-[57px] py-[16px] px-[21px] rounded-4xl">
-                <p>Connect</p>
-              </div>
-              <div>
-                <img src="/UnionConnect.png" alt="" />
-              </div>
-              <GoArrowUpRight className="text-[29px]" />
-            </button> */}
             <button className="cursor-pointer"><img src="/connectButton.png" alt="button" /></button>
           </div>
         </div>

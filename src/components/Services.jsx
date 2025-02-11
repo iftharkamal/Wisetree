@@ -28,7 +28,7 @@ const Services = () => {
           <hr className="text-[#00213280] mb-8 lg:mb-16" />
         </div>
         <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between mb-10">
-          <div className="w-[300px] md:w-[420px] lg:w-[450px] h-[335px] md:h-[400px] lg:h-[530px]  -rotate-6 mb-6 md:mb-0 md:-translate-x-[120px] lg:-translate-x-[148px]">
+          <div className="w-[250px] md:w-[420px] lg:w-[450px] h-[320px] md:h-[400px] lg:h-[530px]  -rotate-6 mb-10 md:mb-0 md:-translate-x-[120px] lg:-translate-x-[148px]">
             <img
               src="/thoughtflow.png"
               alt="image"
@@ -36,7 +36,7 @@ const Services = () => {
             />
           </div>
           <div className="flex flex-col ">
-            <div className="flex items-center justify-around text-[#2B2A29BF] text-[16px] gap-3 mb-6">
+            <div className="flex items-center justify-evenly text-[#2B2A29BF] text-[16px] gap-3 mb-6">
               <p>oct 15, 2024</p>
               <p className="text-[#2B2A2980]">|</p>
               <p>brand Identity</p>
@@ -45,7 +45,7 @@ const Services = () => {
               Define a unique and clear brand identity that resonates with the
               relevant target audience{" "}
             </h3>
-            <button className="uppercase px-[25px] py-[16px] border-[0.8px] border-[#00213280] rounded-[37.5px] text-[18px] text-[#2B2A29BF] ">
+            <button className="uppercase px-[25px] py-[16px] border-[0.8px] border-[#00213280] rounded-[37.5px] text-[18px] text-[#2B2A29BF] cursor-pointer">
               view blog
             </button>
           </div>
