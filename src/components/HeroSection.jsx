@@ -10,7 +10,7 @@ const HeroSection = () => {
           alt="logo"
           className="w-[122px] h-[42px]"
         />
-        <img src="src/assets/menu.png" alt="menubar" />
+        <img src="/menu.png" alt="menubar" />
       </nav>
 
       {/* container section */}
@@ -43,12 +43,12 @@ const HeroSection = () => {
         <img
           src="/ellipseBlue.png"
           alt="blue"
-          className="w-[220px] h-[117px] md:w-[330px] md:h-[190px] lg:w-[420px] lg:h-[270px] absolute top-[97px] left-[-13px] md:left-18 md:top-44 lg:left-64 lg:top-52 "
+          className="w-[220px] h-[117px] md:w-[330px] md:h-[190px] lg:w-[420px] lg:h-[270px] absolute top-[97px] left-[-13px] md:left-10 md:top-44  lg:left-10 lg:top-52 xl:left-30 "
         />
         <img
           src="/ellipseGreen.png"
           alt="green"
-          className="w-[220px] h-[117px] md:w-[340px] md:h-[200px] lg:w-[460px] lg:h-[270px] absolute top-[35px] right-[10px] md:right-28 md:top-15 lg:right-46 lg:top-16 "
+          className="w-[220px] h-[117px] md:w-[340px] md:h-[200px] lg:w-[460px] lg:h-[270px] absolute top-[35px] right-[10px] md:right-20 md:top-15 lg:right-10 lg:top-16 xl:right-30"
         />
 
         {/* text/Headlines */}
@@ -56,26 +56,26 @@ const HeroSection = () => {
           <h5 className="lg:hidden max-w-[220px] p-6 text-base leading-[26px] opacity-85">
             Looking to streamline your marketing?
           </h5>
-          <div className="leading-[120px] lg:leading-[170px] lg:absolute lg:w-full lg:top-25 ">
+          <div className="leading-[120px] lg:leading-[170px] lg:absolute w-full lg:top-25 ">
             <div className="overflow-hidden w-full">
-              <h1 className="text-[90px] lg:[120px] font-bold whitespace-nowrap uppercase scroll-left">
+              <h1 className="text-[90px] lg:[120px] font-bold  uppercase scroll-left">
                 Don’t just Keep Up, OUTRUN
               </h1>
             </div>
-            <div className="overflow-hidden w-full">
+            <div className="overflow-hidden ">
               <h1 className="text-[90px] lg:[120px] font-bold  whitespace-nowrap uppercase scroll-right">
                 Don’t just Keep Up, OUTRUN
               </h1>
             </div>
           </div>
-          <h5 className="max-w-[280px] lg:max-w-[330px] p-6 text-base lg:text-[18px] leading-[24px] lg:leading-[27px] opacity-85 lg:absolute lg:right-56 lg:top-85">
+          <h5 className="max-w-[280px] lg:max-w-[330px] p-6 text-base lg:text-[18px] leading-[24px] lg:leading-[27px] opacity-85 lg:absolute lg:right-10 lg:top-96 xl:top-92 xl:right-16 ">
             Wisetree Brands is your trusted partner to help you stand out, craft
             sustainable B2B strategies, and create a lasting impression.
           </h5>
         </div>
 
         {/* sphere */}
-        <div className="w-[150px] lg:w-[225px] h-[150px] lg:h-[225px] absolute z-20 rounded-full bg-linear-180 from-[#052842] via-[#2A5EA5] to-[#7BB885] top-[150px] right-[50px] lg:top-76 lg:right-132">
+        <div className="w-[150px] lg:w-[225px] h-[150px] lg:h-[225px] absolute z-20 rounded-full bg-linear-180 from-[#052842] via-[#2A5EA5] to-[#7BB885] top-[150px] right-[50px] md:top-60 md:right-50 lg:top-64 lg:right-60 xl:right-96">
           <div className="w-full h-full rounded-full bg-transparent relative">
             <p className="text-[35px] lg:text-[50px] text-center font-medium  uppercase leading-10 lg:leading-[60px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               Let’s Talk

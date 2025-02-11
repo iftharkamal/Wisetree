@@ -43,7 +43,7 @@ const HeroSectionText = () => {
           this framework to guide businesses to success.
         </p>
         <div className="lg:order-1 flex items-end">
-          <ButtonLearnMore />
+          <button className="w-[230px]"><img src="/learnMoreButton.png" alt="" /></button>
         </div>
       </div>
     </div>

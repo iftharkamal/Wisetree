@@ -3,22 +3,26 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Footer = () => {
   return (
-    <div className='bg-[url("/assets/mainbg2.png")] bg-cover bg-left text-[#FCFFF9]'>
+    <div className='bg-[url("/mainbg2.png")] bg-cover bg-left text-[#FCFFF9]'>
       <div className="h-[30px] w-full bg-white rounded-b-[45px]"></div>
 
       <div className="mt-12 ">
-        <div className=' bg-[url("src/assets/DotGridFooter.png")] bg-contain  bg-center'>
+        <div className=' bg-[url("/DotGridFooter.png")] bg-contain  bg-center'>
           <div className="p-4 lg:flex lg:gap-10 items-center justify-between ">
             <h1 className="text-[30px] leading-[32px] mb-5 w-[312px] md:w-[448px] lg:w-[500px]">
               Achieve your business goals today. Book a discovery call now!
             </h1>
             {/* button */}
-            <div className="flex justify-between items-center w-[230px] rounded-4xl p-3 text-[#F7FFEF] bg-linear-150 from-[#2A5EA5] via-[#2A5EA5F2] to-[#006633]">
-              <button className="text-[19px] font-medium uppercase">
-                Connect
-              </button>
+            {/* <button className="flex items-center  text-[19px] font-medium uppercase rounded-4xl text-[#002132]">
+              <div className="w-[140px] h-[57px] py-[16px] px-[21px] rounded-4xl">
+                <p>Connect</p>
+              </div>
+              <div>
+                <img src="/UnionConnect.png" alt="" />
+              </div>
               <GoArrowUpRight className="text-[29px]" />
-            </div>
+            </button> */}
+            <button className="cursor-pointer"><img src="/connectButton.png" alt="button" /></button>
           </div>
         </div>
       </div>
@@ -35,7 +39,7 @@ const Footer = () => {
       <div className="relative mt-8 mb-8">
         <div className="flex items-center justify-center">
           <img
-            src="/assets/logo.png"
+            src="/logo.png"
             alt="logo"
             className="opacity-25 w-[197px] lg:w-[364px]"
           />
@@ -50,11 +54,11 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-4 p-4">
         {/* icons */}
         <div className="flex gap-3 lg:hidden">
-          <img src="/assets/facebook.png" alt="" />
-          <img src="/assets/instagram.png" alt="" />
-          <img src="/assets/x.png" alt="" />
-          <img src="/assets/youtube.png" alt="" />
-          <img src="/assets/linkedin.png" alt="" />
+          <img src="/facebook.png" alt="" />
+          <img src="/instagram.png" alt="" />
+          <img src="/x.png" alt="" />
+          <img src="/youtube.png" alt="" />
+          <img src="/linkedin.png" alt="" />
         </div>
 
         <div className="h-[0.5px] bg-[#FCFFF980] w-[98%]"></div>
@@ -64,11 +68,11 @@ const Footer = () => {
 
         <div className="flex items-center justify-between w-full p-4">
           <div className="hidden lg:flex gap-3 cursor-pointer">
-            <img src="/assets/facebook.png" alt="" />
-            <img src="/assets/instagram.png" alt="" />
-            <img src="/assets/x.png" alt="" />
-            <img src="/assets/youtube.png" alt="" />
-            <img src="/assets/linkedin.png" alt="" />
+            <img src="/facebook.png" alt="" />
+            <img src="/instagram.png" alt="" />
+            <img src="/x.png" alt="" />
+            <img src="/youtube.png" alt="" />
+            <img src="/linkedin.png" alt="" />
           </div>
           <div className="hidden lg:flex gap-8 text-[18px] cursor-pointer">
             <a>About</a>

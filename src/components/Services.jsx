@@ -5,7 +5,7 @@ import Cards2 from "./Cards2";
 const Services = () => {
   return (
     <div className="mt-5 lg:mt-8">
-      <div className='bg-[url("/assets/DotGrid.png")] bg-contain bg-center w-full lg:mb-8 p-4'>
+      <div className='bg-[url("/DotGrid.png")] bg-contain bg-center w-full lg:mb-8 p-4'>
         <h1 className="text-[80px] lg:text-[150px] text-[#2B2A29]">Services</h1>
       </div>
       <div className="p-4">
@@ -28,9 +28,9 @@ const Services = () => {
           <hr className="text-[#00213280] mb-8 lg:mb-16" />
         </div>
         <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between mb-10">
-          <div className="w-[300px] md:w-[420px] lg:w-[500px] h-[335px] md:h-[400px] lg:h-[600px]  -rotate-6 mb-6 md:mb-0 md:-translate-x-[100px] lg:-translate-x-[148px]">
+          <div className="w-[300px] md:w-[420px] lg:w-[450px] h-[335px] md:h-[400px] lg:h-[530px]  -rotate-6 mb-6 md:mb-0 md:-translate-x-[120px] lg:-translate-x-[148px]">
             <img
-              src="/assets/thoughtflow.png"
+              src="/thoughtflow.png"
               alt="image"
               className="w-full h-full rounded-[19px] lg:rounded-[35px]"
             />
@@ -49,9 +49,9 @@ const Services = () => {
               view blog
             </button>
           </div>
-          <div className="hidden md:block w-[300px] md:w-[420px] lg:w-[500px] h-[335px] md:h-[400px] lg:h-[600px]  rotate-6 md:translate-x-[100px] lg:translate-x-[148px]">
+          <div className="hidden md:block w-[300px] md:w-[420px] lg:w-[450px] h-[335px] md:h-[400px] lg:h-[530px]  rotate-6 md:translate-x-[120px] lg:translate-x-[148px]">
             <img
-              src="/assets/thoughtflow2.png"
+              src="/thoughtflow2.png"
               alt="image"
               className="h-full w-full rounded-[19px] lg:rounded-[35px]"
             />
